@@ -1,0 +1,18 @@
+.about__block{
+    display: flex;
+    flex-wrap: wrap;
+}
+.about__text{
+    display: block;
+    width: 40%;
+    margin:178px auto 178px auto;
+    font-family: $roboto;
+    font-size: 17px;
+    font-weight: 300; 
+    text-transform: uppercase;
+    line-height: 30px;
+    text-align: left;
+}
+.about__text.list{
+    margin:178px auto 178px 20px;
+}

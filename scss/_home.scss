@@ -1,0 +1,31 @@
+.home__wrap {
+  width: 100%;
+  min-height: 1266px;
+  background: url(../img/fone.jpg) center (center/cover) no-repeat;
+}
+.lease {
+  width: 593px;
+  height: auto;
+  padding-top: 321px;
+  position: relative;
+  @media screen and (max-width: 1200px){
+    margin-left: 20px;
+  }
+}
+.lease__text {
+  font-family: $roboto;
+  font-size: 36px;
+  font-weight: 400;
+  text-align: left;
+  margin-bottom: 60px;
+  color: $white;
+}
+.lease__foto {
+  position: absolute;
+  width: 943px;
+  height: 219px;
+  z-index: 10;
+  background: url(../img/png/mountains.png) center (center/cover) no-repeat;
+  margin-top: 0px;
+  margin-left: 350px;
+}
